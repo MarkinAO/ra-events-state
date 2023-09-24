@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item {
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.toolbar-item {
+    border: 2px solid black;
+}
+
+.toolbar-item:hover {
+    border: 2px solid orange;
+  }
+
+.toolbar-item__select {
+    color: white;
+    background-color: black;
+    transition: all 0.3s;
+}

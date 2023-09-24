@@ -9,7 +9,7 @@ function Toolbar(props) {
                 if(category === selected) classes += ' toolbar-item__select';
                 
                 return (
-                    <button className={classes} onClick={handler}>
+                    <button className={classes} onClick={handler} key={category}>
                         {category}
                     </button>
                 )                

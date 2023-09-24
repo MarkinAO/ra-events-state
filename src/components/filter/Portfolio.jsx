@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ProjectList from './ProjectList';
 import Toolbar from './Toolbar';
+import './Portfolio.css';
 
 function Portfolio(props) {
     let [ selected, setSelected ] = useState('All');
